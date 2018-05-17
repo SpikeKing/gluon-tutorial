@@ -153,4 +153,4 @@ class GluonFirst(object):
 
 if __name__ == '__main__':
     gf = GluonFirst()
-    gf.train_gpu()
+    gf.train()
