@@ -1,8 +1,10 @@
+# 深度框架 MXNet / Gluon 初体验
+
+![MXNet](./doc/logo.png)
+
 > MXNet: A flexible and efficient library for deep learning.
 
 这是MXNet的[官网](https://mxnet.incubator.apache.org/)介绍，“MXNet是灵活且高效的深度学习库”。
-
-![MXNet](./doc/logo.png)
 
 MXNet是主流的三大深度学习框架之一：
 
@@ -170,7 +172,7 @@ mx.viz.plot_network(sym)
 
 效果图：
 
-![模型]((./doc/net.png))
+![模型](./doc/net.png)
 
 ---
 
@@ -413,7 +415,7 @@ def valid_batch(batch, ctx, net):
 
 训练GPU模型，需要连接远程服务器，上传工程。如果无法使用Git传输，则推荐使用[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX)，非常便捷的文件同步工具：
 
-![RsyncOSX]((./doc/rsync.png))
+![RsyncOSX](./doc/rsync.png)
 
 在远程服务器中，将工程的依赖库安装至虚拟环境中，注意需要使用MXNet的GPU版本``mxnet-cu80``，接着，执行模型训练。
 
